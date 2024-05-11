@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <style>
     /* #myAnimation {
@@ -62,6 +63,7 @@
                     <li>Office Map</li>
                     <li><button onclick="window.print()">Print this Page</button></li>
                 </ul>
+
             </div>
         </div>
     </div>

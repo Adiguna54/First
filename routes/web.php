@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/1', function () {
     return view('datang', ["data"=>'wow']);
 });
+
+Route::get('/2', function(){
+    return view('tesalpine');
+});
